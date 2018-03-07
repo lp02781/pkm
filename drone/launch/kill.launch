@@ -1,0 +1,5 @@
+<launch>
+
+	<node name="killSwitch" pkg="drone" output="screen" type="killSwitch" />
+	
+</launch>

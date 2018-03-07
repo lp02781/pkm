@@ -1,0 +1,11 @@
+<launch>
+
+	<node name="nodeController" pkg="drone" output="screen" type="nodeController" />
+	
+	<node name="takeOff" pkg="drone" output="screen" type="takeOff" />
+	<node name="goToWp" pkg="drone" output="screen" type="goToWp" />
+	<node name="imageCapture" pkg="drone" output="screen" type="imageCapture" />
+	<node name="landing" pkg="drone" output="screen" type="landing" />
+	<node name="imageProcessing" pkg="drone" output="screen" type="imageProcessing" />
+	
+</launch>
